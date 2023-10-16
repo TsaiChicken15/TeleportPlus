@@ -1,6 +1,6 @@
-### **Teleport+**
+### **TeleportPlus**
 **A Free Plugin With Better TP**  
-**Free Plugin | Better TP | Made In Taiwan | Waste Me 10 Hours**
+**Free Plugin | Better TP | Waste Me 10 Hours | Made In Taiwan**  
 
 _Commands:  
 /tpp - Show helps.  
