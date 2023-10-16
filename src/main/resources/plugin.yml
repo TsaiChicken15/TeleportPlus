@@ -1,0 +1,51 @@
+name: TeleportPlus
+version: '4.1'
+main: com.ch1ck3n.teleportplus.TeleportPlus
+api-version: '1.20'
+commands:
+  tpp:
+    description: Teleport to a TPoint.
+    usage: /tpp <name>
+    permission: tpp.tp
+  tpp add:
+    description: Add a TPoint at current position.
+    usage: /tpp add <name>
+    permission: tpp.add
+  tpp edit:
+    description: Move a TPoint to current position.
+    usage: /tpp edit <name>
+    permission: tpp.edit
+  tpp list:
+    description: List all TPoint of this server.
+    usage: /tpp list
+    permission: tpp.list
+  tpp remove:
+    description: Remove a TPoint.
+    usage: /tpp remove <name>
+    permission: tpp.remove
+
+permissions:
+  tpp.admin:
+    description: Allow to use Teleport+'s main command.
+    default: op
+    children:
+      tpp.tp: true
+      tpp.list: true
+      tpp.add: true
+      tpp.edit: true
+      tpp.remove: true
+  tpp.tp:
+    description: Allow to use Teleport+'s main command.
+    default: not op
+  tpp.list:
+    description: Allow to use Teleport+'s main command.
+    default: not op
+  tpp.add:
+    description: Allow to use Teleport+'s main command.
+    default: op
+  tpp.edit:
+    description: Allow to use Teleport+'s main command.
+    default: op
+  tpp.remove:
+    description: Allow to use Teleport+'s main command.
+    default: op
