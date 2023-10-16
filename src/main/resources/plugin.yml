@@ -1,5 +1,5 @@
 name: TeleportPlus
-version: '4.1'
+version: '2.6'
 main: com.ch1ck3n.teleportplus.TeleportPlus
 api-version: '1.20'
 commands:
