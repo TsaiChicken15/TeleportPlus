@@ -1,4 +1,4 @@
-### TeleportPlus
+### **Teleport+**
 **A Free Plugin With Better TP**  
 **Free Plugin | Better TP | Made In Taiwan | Waste Me 10 Hours**
 
